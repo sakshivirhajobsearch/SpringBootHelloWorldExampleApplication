@@ -9,7 +9,7 @@
 		<version>2.2.2.BUILD-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatpoint</groupId>
+	<groupId>com.javapoint</groupId>
 	<artifactId>SpringBootHelloWorldExampleApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootHelloWorldExampleApplication</name>
