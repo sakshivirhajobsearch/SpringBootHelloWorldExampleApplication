@@ -17,6 +17,6 @@ public class HelloWorldControllerTest {
 
 	@Test
 	public void testHello() throws Exception {
-		mockMvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("SpringBootHelloWorldExampleApplication"));
+		mockMvc.perform(get("/api/hello")).andExpect(status().isOk()).andExpect(content().string("SpringBootHelloWorldExampleApplication"));
 	}
 }
